@@ -24,6 +24,7 @@ def read_excel_dict(file):
 
 def read_excel_list(file):
     l = []
+    import random
     wb = xlrd.open_workbook(filename=file)  # 打开文件
     # print(wb.sheet_names())  # 获取所有表格名字
 
